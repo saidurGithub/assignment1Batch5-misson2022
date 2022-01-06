@@ -45,6 +45,18 @@ header{
     color: goldenrod;
 }
 
+.header-title h1::after {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 82px;
+    position: absolute;
+    background: #FF5959;
+    top: 117px;
+    left: 338px;
+    border-radius: 10px;
+}
+
 .header-img img{
     width: 80%;
     margin-top: -95px;
@@ -123,16 +135,127 @@ header{
 /* =======================
     coding section
 ========================= */
-
-#coding{
+#codeing-main{
+    margin: 150px 0;
+}
+.half-cont{
     display: flex;
-    margin: 100px 0;
 }
 
-.coding-img, .coding-info{
-    width: 50%;
-}
-
-.coding-img img{
+.half-width img{
     width: 80%;
+}
+
+#codeing-main{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 22%;
+}
+
+.half-width h2{
+    font-size: 35px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.half-width p{
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.half-info{
+    margin-top: 50px;
+}
+
+/* =========================
+       community section
+============================ */
+
+#community{
+    margin: 150px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 22%;
+}
+.community-main{
+    display: flex;
+}
+.community-info{
+    width: 60%;
+    margin-right: 30px;
+    margin-top: 80px;
+}
+.community-img{
+    width: 40%;
+}
+
+.community-info h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.community-info p{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 55px;
+}
+
+.community-img img{
+    width: 100%;
+}
+
+/* =====================
+        project-main
+======================= */
+#project{
+    margin: 150px;
+}
+#project h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.project-main{
+    display: flex;
+}
+
+.projects{
+    width: 33%;
+    margin-right: 20px;
+}
+.projects img{
+    width: 350px;
+}
+
+.projects h3{
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.projects  p{
+    font-size: 18px;
+}
+
+/* ======================
+        Footer
+========================= */
+
+footer{
+    text-align: center;
+    background: #000;
+    color: #FFF;
+    padding: 50px 0;
+}
+.footer-content h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-family: 'Yellowtail', cursive;
+}
+
+.footer-content span{
+    color: #FF5959;
 }
